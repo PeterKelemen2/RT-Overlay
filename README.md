@@ -14,6 +14,6 @@ AMD or Nvidia styled**
 8. ???
 9. Profit
 
-Preview:
+**Preview:**
 
 ![alt text](https://i.ibb.co/wsvtPMz/Untitled.png)
