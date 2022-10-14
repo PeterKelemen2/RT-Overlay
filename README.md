@@ -5,7 +5,7 @@ AMD or Nvidia styled**
 
 **How to use:**
 1. Copy the .ovl files to **.\RivaTuner Statistics Server\Plugins\Client\Overlays**
-    - Options to install using the bat files:
+     Options to install using the bat files:
     - **Install.bat** copies the files to the default RTSS directory
     - **Open Folder.bat** does exactly what it says in the name, opens the default folder to copy files manually
 2. Open **RivaTuner**
