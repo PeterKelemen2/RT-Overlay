@@ -3,6 +3,7 @@
 **Custom RivaTuner Overlay
 AMD or Nvidia styled**
 
+**How to use:**
 1. Copy the .ovl files to **.\RivaTuner Statistics Server\Plugins\Client\Overlays**
 2. Open **RivaTuner**
 3. Click on **Setup** (bottom)
