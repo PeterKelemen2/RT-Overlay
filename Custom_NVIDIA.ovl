@@ -3,7 +3,7 @@ Implementation=2
 FontFace=Unispace
 FontHeight=-9
 FontWeight=400
-ZoomRatio=3
+ZoomRatio=2
 [Settings]
 Name=
 RefreshPeriod=1000
@@ -412,12 +412,13 @@ ExtentOrigin=0
 BgndColor=82000000
 [Layer1]
 Name=
-Text=GPU
-PositionX=32
+Text=RTX 2080 Super
+PositionX=10
 PositionY=7
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
+Size=80
 TextColor=C631
 [Layer2]
 Name=
@@ -471,9 +472,9 @@ Size=80
 TextColor=4FF00
 [Layer7]
 Name=
-Text=%GPU usage% %
+Text=%GPU usage%%
 PositionX=72
-PositionY=18
+PositionY=29
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
@@ -482,9 +483,9 @@ Size=80
 TextColor=FFFFFF
 [Layer8]
 Name=
-Text=%GPU temperature% °C
+Text=%GPU temperature%°C
 PositionX=72
-PositionY=29
+PositionY=18
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
@@ -533,16 +534,17 @@ ExtentX=0
 ExtentY=0
 ExtentOrigin=0
 Size=80
-TextColor=FFFF
+TextColor=C60000
 [Layer13]
 Name=
-Text=CPU
-PositionX=32
+Text=R5-5600
+PositionX=27
 PositionY=85
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-TextColor=BCBC
+Size=80
+TextColor=E00000
 [Layer14]
 Name=
 Text=Usage
@@ -552,7 +554,7 @@ ExtentX=0
 ExtentY=0
 ExtentOrigin=0
 Size=80
-TextColor=FFFF
+TextColor=C60000
 [Layer15]
 Name=
 Text=Core
@@ -562,7 +564,7 @@ ExtentX=0
 ExtentY=0
 ExtentOrigin=0
 Size=80
-TextColor=FFFF
+TextColor=C60000
 [Layer16]
 Name=
 Text=Power
@@ -572,10 +574,10 @@ ExtentX=0
 ExtentY=0
 ExtentOrigin=0
 Size=80
-TextColor=FFFF
+TextColor=C60000
 [Layer17]
 Name=
-Text=%CPU temperature% °C
+Text=%CPU temperature%°C
 PositionX=72
 PositionY=97
 ExtentX=0
@@ -586,7 +588,7 @@ Size=80
 TextColor=FFFFFF
 [Layer18]
 Name=
-Text=%CPU usage% %
+Text=%CPU usage%%
 PositionX=72
 PositionY=108
 ExtentX=0
@@ -650,7 +652,7 @@ Size=80
 TextColor=FF8000
 [Layer24]
 Name=
-Text=%RAM usage% GB
+Text=%RAM usage%GB
 PositionX=72
 PositionY=148
 ExtentX=0
