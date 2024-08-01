@@ -1,18 +1,19 @@
 [Master]
 Implementation=2
-FontFace=Unispace
+FontFace=JetBrains Mono Medium
 FontHeight=-9
-FontWeight=400
+FontWeight=700
 ZoomRatio=3
 [Settings]
 Name=
+EnvVars=
 RefreshPeriod=1000
 EmbeddedImage=
 PingAddr=
 [General]
-Sources=47
+Sources=49
 Tables=1
-Layers=34
+Layers=38
 [Source0]
 Name=CPU temperature
 Units=°C
@@ -387,6 +388,24 @@ Provider=MSI Afterburner
 SrcId=00000050
 Gpu=FFFFFFFF
 SrcName=
+[Source47]
+Name=Current DL rate
+Units=KB/s
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=2
+ReadingType=8
+ReadingName=Current DL rate
+[Source48]
+Name=Current UP rate
+Units=KB/s
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=2
+ReadingType=8
+ReadingName=Current UP rate
 [Table0]
 Name=SampleTable
 ValueSize=50
@@ -405,15 +424,15 @@ Line1Cell2Source=NET1 upload rate
 Name=
 Text=
 PositionX=4
-PositionY=5
-ExtentX=75
-ExtentY=224
+PositionY=4
+ExtentX=76
+ExtentY=248
 ExtentOrigin=0
 BgndColor=82000000
 [Layer1]
 Name=
 Text=RTX 2080 Super
-PositionX=12
+PositionX=10
 PositionY=7
 ExtentX=0
 ExtentY=0
@@ -747,11 +766,53 @@ Size=80
 TextColor=FFFFFF
 [Layer33]
 Name=
-Text=<G=Frametime,-13,-1,1,0,25,0>
-PositionX=7
+Text=<G=Frametime,-12,-1,1,0,25,0>
+PositionX=8
 PositionY=214
-ExtentX=0
-ExtentY=0
+ExtentX=33
+ExtentY=12
 ExtentOrigin=0
 TextColor=FFFFFF
 BgndColor=3EFFFFFF
+[Layer34]
+Name=
+Text=Net UP
+PositionX=7
+PositionY=231
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=80
+TextColor=FEA3D2
+[Layer35]
+Name=
+Text=Net DL
+PositionX=7
+PositionY=241
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=80
+TextColor=FEA3D2
+[Layer36]
+Name=
+Text=%Current UP rate% Mbps
+PositionX=72
+PositionY=231
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Alignment=-1
+Size=80
+TextColor=FFFFFF
+[Layer37]
+Name=
+Text=%Current DL rate% Mbps
+PositionX=72
+PositionY=242
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Alignment=-1
+Size=80
+TextColor=FFFFFF
